@@ -35,6 +35,5 @@ yarn-error.log*
 Thumbs.db
 
 # Paper & publication scratch files
-fig1.png
 generate_diagram.py
 ieee_paper.tex
