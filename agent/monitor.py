@@ -62,7 +62,7 @@ def is_real_removable_usb(drive_path):
         return False
 
 
-DEFAULT_API_URL = "http://127.0.0.1:5000/api/activities"
+DEFAULT_API_URL = "http://127.0.0.1:5002/api/activities"
 DEFAULT_EMPLOYEE = "EMP-001"
 
 # Recognized process categories and risk indicators

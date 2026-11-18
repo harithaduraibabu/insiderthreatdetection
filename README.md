@@ -21,7 +21,7 @@ The system consists of four coordinated components:
                                 │ HTTP / REST
                     ┌───────────▼────────────┐
                     │  Node.js Backend API   │
-                    │      (Port 5000)       │
+                    │      (Port 5002)       │
                     └─────┬────────────┬─────┘
                           │            │
             Proxy / Sync  │            │ Analysis
@@ -60,8 +60,8 @@ cd backend
 npm install
 npm start
 ```
-> Running at: `http://127.0.0.1:5000`  
-> Employees endpoint: `http://127.0.0.1:5000/api/employees`
+> Running at: `http://127.0.0.1:5002`  
+> Employees endpoint: `http://127.0.0.1:5002/api/employees`
 
 ---
 

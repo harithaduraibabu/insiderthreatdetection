@@ -2,7 +2,7 @@
 // Handles communication with Node.js backend.
 // Graceful fallback to static data if backend is offline.
 
-const API_BASE = 'http://127.0.0.1:5000/api';
+const API_BASE = 'http://127.0.0.1:5002/api';
 
 // Fallback datasets matching database seeding outputs
 const mockEmployees = [

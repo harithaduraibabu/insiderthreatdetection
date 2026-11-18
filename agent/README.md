@@ -21,7 +21,7 @@ Unlike keyloggers or invasive surveillance tools, this agent:
 ## 🚀 How to Run the Agent
 
 ### Step 1: Ensure Backend is Running
-The Node.js backend must be running on port 5000:
+The Node.js backend must be running on port 5002:
 ```bash
 cd backend
 npm start
@@ -43,7 +43,7 @@ py monitor.py --emp EMP-8021
 py monitor.py --interval 3
 
 # Specify custom backend URL
-py monitor.py --url http://127.0.0.1:5000/api/activities
+py monitor.py --url http://127.0.0.1:5002/api/activities
 ```
 
 ---
